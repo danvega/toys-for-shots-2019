@@ -7,49 +7,6 @@ $(function () {
         $('.navbar-collapse').collapse('hide');
     });
 
-    //animation scroll js
-    var html_body = $('html, body');
-    $('nav a').on('click', function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                html_body.animate({
-                    scrollTop: target.offset().top - 0
-                }, 1500, 'easeInOutCubic');
-                return false;
-            }
-        }
-    });
-
-    // this is for back to top and sticky menu js
-    var bc2top = $('.back-top-btn');
-    bc2top.on('click', function () {
-        html_body.animate({
-            scrollTop: 0
-        }, 1000);
-    });
-
-    windo.on('scroll', function () {
-        var scrollPos = windo.scrollTop();
-        var scrolling = $(this).scrollTop();
-        if (scrollPos > 150) {
-            bc2top.fadeIn(1000);
-        } else {
-            bc2top.fadeOut(1000);
-        }
-
-        if (scrolling >= 100) {
-            $('.sticky-top').addClass('navcss');
-        } else {
-            $('.sticky-top').removeClass('navcss');
-        }
-    });
-
-
-    windo.on('load', function () {
-        $('.preloader').delay(2000).fadeOut();
-    });
 
     // Browse all js
     $(".images-item").slice(0, 4).show();
