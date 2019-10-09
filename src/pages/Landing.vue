@@ -6,8 +6,8 @@
         <div class="col-md-5 mx-auto text-center">
           <div class="slider_txt">
             <h1>Merry Christmas</h1>
-            <h3>Wish & Donate</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <h3>Toys for Shots</h3>
+            <p>Toys for Shots is an annual fundraiser / holiday party. The primary goal of this very special event is to collect as many new, unwrapped toys as possible for The Marine Toys for Tots Foundation. Your gift will spread so much joy to a deserving Cleveland area child this Christmas.</p>
             <a href="#" data-toggle="modal" data-target="#exampleModal">Join the Party</a>
             <div class="col-12">
               <div class="row">
@@ -102,13 +102,13 @@
           </div>
         </div>
         <div class="santa-tree">
-          <img src="images/shnata-tree.png" alt="santa-tree" />
+          <g-image src="../assets/images/shnata-tree.png" alt="Santa Tree" />
         </div>
         <div class="gift-box">
-          <img src="images/box.png" alt="santa-tree" />
+          <g-image src="../assets/images/box.png" alt="Santa Tree" />
         </div>
         <div class="santa">
-          <img src="images/shanta-img.png" alt="santa" />
+          <g-image src="../assets/images/shanta-img.png" alt="Box" />
         </div>
       </div>
     </div>
