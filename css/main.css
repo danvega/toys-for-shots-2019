@@ -1,0 +1,379 @@
+/*============================= Navbar part css ==============================*/
+#nav-part {
+  z-index: 999;
+  width: 100%;
+  margin-top: 20px;
+  transition: all 0.3s linear;
+}
+#nav-part button i {
+  color: #fff;
+  font-size: 30px;
+}
+.navbar-light .navbar-toggler {
+  border-color: #fff;
+}
+.navcss {
+  background-color: #0a2643;
+  margin-top: 0 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding-right: 0.7rem;
+  position: relative;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link::after {
+  position: absolute;
+  content: "";
+  background: url(../images/shape.png) no-repeat;
+  top: -42px;
+  left: 50%;
+  width: 20px;
+  height: 0px;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all linear 0.3s;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.navbar-nav .nav-item .active.nav-link:after {
+  opacity: 1;
+  height: 44px;
+}
+.navbar-nav .nav-item .active.nav-link {
+  background: transparent;
+}
+.navbar-nav .nav-link:hover::after {
+  opacity: 1;
+  height: 44px;
+}
+
+/*============================= Banner part css ============================*/
+.tahsan {
+  position: relative;
+}
+.l-snow-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  background: url(../images/banner01.jpg) left top no-repeat;
+  background-size: cover;
+}
+.banner-sub {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: url(../images/banner01.jpg) left top no-repeat;
+  background-size: cover;
+}
+.slider_txt {
+  padding-top: 130px;
+}
+.slider_txt h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "Parisienne", cursive;
+}
+.slider_txt h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 50px;
+  text-transform: capitalize;
+}
+.slider_txt p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+.slider_txt a {
+  padding: 9px 20px;
+  background: #fff;
+  border-radius: 25px;
+  font-family: "Parisienne", cursive;
+  color: #ff5a5a;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all linear 0.3s;
+  border: 1px solid #fff;
+  font-weight: 600;
+}
+.slider_txt a:hover {
+  background: none;
+  color: #fff;
+}
+.santa-tree {
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+.gift-box {
+  position: absolute;
+  bottom: -285px;
+  left: 95px;
+}
+.santa {
+  position: absolute;
+  right: 0;
+  bottom: -250px;
+}
+
+/*================================= About part css ===================================*/
+#about {
+  margin-top: 230px;
+  padding-top: 100px;
+  /* position: relative; */
+}
+
+.heading {
+  padding-bottom: 35px;
+}
+.heading h2 {
+  font-family: "Parisienne", cursive;
+  font-weight: 700;
+  font-size: 32px;
+  color: #ff5a5a;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+.heading p {
+  /* font-family: "Open Sans", sans-serif; */
+  font-weight: 400;
+  font-size: 18px;
+  color: #444444;
+  line-height: 24px;
+}
+.about-img {
+  position: absolute;
+  left: 0;
+  width: 550px;
+  bottom: 0;
+  padding-top: 100px;
+  padding-left: 0;
+}
+.about-content p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444444;
+  padding-bottom: 10px;
+}
+.about-button {
+  padding-top: 10px;
+}
+.about-button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Parisienne", cursive;
+  font-size: 20px;
+  text-transform: capitalize;
+  transition: all linear 0.3s;
+  font-weight: 600;
+}
+.about-button .donate {
+  background: #ff5a5a;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid #ff5a5a;
+}
+.about-button .donate:hover {
+  background: none;
+  color: #ff5a5a;
+}
+.about-button .gift {
+  border: 1px solid #ff5a5a;
+  padding: 10px 35px;
+  border-radius: 25px;
+  color: #ff5a5a;
+  margin-left: 10px;
+}
+.about-button .gift:hover {
+  background: #ff5a5a;
+  color: #fff;
+}
+.submit-join2 {
+  border-bottom: 1px dashed #ff5a5a;
+  padding-bottom: 50px;
+}
+.tahsan2 {
+  padding-top: 50px;
+}
+.checkbox,
+.radio {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.brand-name label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #444444;
+}
+
+/*=========================== Last Year Party css ==========================*/
+#last-party {
+  padding-top: 100px;
+}
+.browse-all.text-center.col-12 {
+  padding-top: 40px;
+}
+.browse-all a {
+  padding: 10px 25px;
+  border: 1px solid #ff5a5a;
+  border-radius: 25px;
+  color: #ff5a5a;
+  font-family: "Parisienne", cursive;
+  font-size: 20px;
+  text-transform: capitalize;
+  transition: all linear 0.3s;
+  text-decoration: none;
+  transition: all linear 0.3s;
+  font-weight: 600;
+}
+.browse-all a:hover {
+  background: #ff5a5a;
+  color: #fff;
+}
+.images-item {
+  /* display: none; */
+  margin-bottom: 30px;
+}
+.navbar-light .navbar-toggler {
+  background: tranparent;
+}
+
+/*========================= Footer part css =======================================*/
+
+#footer {
+  padding-top: 100px;
+}
+.footer-bg {
+  background: url(../images/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#footer p {
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  font-size: 13px;
+}
+
+.footer-bg .heading {
+  padding-bottom: 15px;
+}
+.footer-item ul li p {
+  margin: 0;
+}
+.footer-item ul li a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.footer-item ul li {
+  float: left;
+}
+.footer-item ul li i {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: #ff5a5a;
+  font-size: 24px;
+}
+.follow {
+  padding-top: 60px;
+}
+.follow h2 {
+  font-family: "Parisienne", cursive;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.follow i {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+  transition: all linear 0.3s;
+}
+.follow a {
+  text-decoration: none;
+}
+.follow i:hover {
+  background: #fff;
+  color: #ff5a5a;
+}
+#footer-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#footer-bottom p {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #444444;
+}
+#footer-bottom a {
+  text-decoration: none;
+  color: #ff5a5a;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  text-align: center;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* COUNTDOWN ----------------------------------- */
+#countdown {
+  background: #f75352;
+  padding: 100px;
+}
