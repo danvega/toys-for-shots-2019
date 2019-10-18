@@ -234,7 +234,7 @@
 
 /*=========================== Last Year Party css ==========================*/
 #last-party {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 .browse-all.text-center.col-12 {
   padding-top: 40px;
@@ -376,4 +376,10 @@
 #countdown {
   background: #f75352;
   padding: 100px;
+}
+
+.tft-home {
+  max-width: 600px;
+  padding-top: 20px;
+  margin: auto;
 }
