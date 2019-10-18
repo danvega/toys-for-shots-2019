@@ -52,7 +52,7 @@
   }
 
   #about {
-    margin-top: 100px;
+    margin-top: 60px;
     padding-top: 0;
   }
   .about-img {
@@ -145,6 +145,15 @@
   .coming-counter #hours .overlay,
   .coming-counter #seconds .overlay {
     top: 48%;
+  }
+  .slider_txt {
+    padding: 0px;
+  }
+  .slider_txt h3 {
+    padding-top: 10px;
+  }
+  .tahsan2 {
+    padding-top: 10px;
   }
 }
 

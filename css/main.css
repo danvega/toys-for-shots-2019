@@ -12,6 +12,7 @@ h1.title {
   font-family: "Lobster Two", cursive;
   font-weight: 700;
   color: rgb(58, 58, 58);
+  padding: 20px 0 0 10px;
 }
 
 /*============================= Navbar part css ==============================*/
@@ -403,7 +404,7 @@ h1.title {
 }
 
 .tft-home {
-  max-width: 600px;
+  max-width: 100%;
   padding-top: 20px;
   margin: auto;
 }
