@@ -154,7 +154,22 @@ h1.title {
   right: 0;
   bottom: -250px;
 }
-
+.btn.donate {
+  padding: 9px 20px;
+  background: #ff5a5a;
+  border-radius: 25px;
+  font-family: "Parisienne", cursive;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all linear 0.3s;
+  border: 1px solid #ff5a5a;
+  font-weight: 600;
+}
+.btn.donate:hover {
+  background: #ff4747;
+  text-decoration: underline;
+}
 /*================================= About part css ===================================*/
 #about {
   margin-top: 230px;
